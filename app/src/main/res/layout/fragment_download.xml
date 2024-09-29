@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".access.DownloadFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:focusableInTouchMode="true"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/accessTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/title_fragment_download"
+            android:textAlignment="center"
+            android:textColor="@color/primary_dark"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/guideline8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/downloadSummary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/description_fragment_download"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline8"
+            app:layout_constraintVertical_bias="0" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="54dp" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="48dp"
+            android:layout_marginBottom="8dp"
+            android:progressTint="@color/primary_dark"
+            app:layout_constraintBottom_toTopOf="@+id/pauseButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/downloadSummary"
+            app:layout_constraintVertical_bias="1.0"
+            tools:progress="30" />
+
+        <TextView
+            android:id="@+id/progress_description"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="24dp"
+            android:gravity="center"
+            app:layout_constraintBottom_toTopOf="@+id/progressBar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/downloadSummary"
+            app:layout_constraintVertical_bias="1.0"
+            tools:text="Transfering Whisper cache initializer batch in internal memory" />
+
+        <TextView
+            android:id="@+id/text_error_download"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:text="@string/error_download"
+            android:textColor="@color/red"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@+id/retryButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/downloadSummary"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/text_error_transfer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:text="@string/error_transfer"
+            android:textColor="@color/red"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@+id/retryButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/downloadSummary"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <ImageButton
+            android:id="@+id/retryButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="24dp"
+            android:backgroundTint="@android:color/transparent"
+            android:src="@drawable/reload_icon"
+            android:tint="@color/dark_gray"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@+id/progress_description"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/downloadSummary"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <ImageButton
+            android:id="@+id/pauseButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="48dp"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="@android:color/transparent"
+            android:src="@drawable/cancel_icon"
+            android:tint="@color/primary_dark"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/progress_numbers"
+            app:layout_constraintTop_toBottomOf="@+id/downloadSummary"
+            app:layout_constraintVertical_bias="0.976" />
+
+        <TextView
+            android:id="@+id/progress_numbers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@+id/pauseButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/pauseButton"
+            tools:text="0.51 / 1.2 GB" />
+
+        <TextView
+            android:id="@+id/text_error_storage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:text="@string/error_storage"
+            android:textAlignment="center"
+            android:textColor="@color/red"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@+id/progress_description"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/downloadSummary"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

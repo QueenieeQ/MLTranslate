@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    * Copyright 2016 Luca Martino.
+    *
+    * Licensed under the Apache License, Version 2.0 (the "License");
+    * you may not use this file except in compliance with the License.
+    * You may obtain a copyFile of the License at
+    *
+    * http://www.apache.org/licenses/LICENSE-2.0
+    *
+    * Unless required by applicable law or agreed to in writing, software
+    * distributed under the License is distributed on an "AS IS" BASIS,
+    * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    * See the License for the specific language governing permissions and
+    * limitations under the License.
+    *-->
+
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="Theme.Speech" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="color">#2196F3</item>
+        <item name="colorPrimaryDark">#2196F3</item>
+        <item name="colorAccent">#00BCD4</item>
+        <item name="colorPrimary">#3F51B5</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="cardViewStyle">@style/CardView</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Material</item>
+    </style>
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen.IconBackground">
+        <!-- Set the splash screen background -->
+        <item name="windowSplashScreenBackground">@android:color/white</item>
+        <!-- Set a background behind the splash screen icon. -->
+        <item name="windowSplashScreenIconBackgroundColor">@android:color/white</item>
+        <!-- Use windowSplashScreenAnimatedIcon to add a drawable or an animated drawable. -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_screen</item>
+        <!-- Set the theme of the Activity that follows your splash screen. -->
+        <item name="postSplashScreenTheme">@style/Theme.Speech</item>
+    </style>
+
+    <style name="Theme.Toolbar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textColorPrimary">#2196F3</item>
+        <item name="android:textColorSecondary">#2196F3</item>
+    </style>
+
+    <style name="Theme.TabLayout" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textSize">13sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+</resources>

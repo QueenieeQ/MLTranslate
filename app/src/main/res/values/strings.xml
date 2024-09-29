@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+    * Copyright 2016 Luca Martino.
+    *
+    * Licensed under the Apache License, Version 2.0 (the "License");
+    * you may not use this file except in compliance with the License.
+    * You may obtain a copyFile of the License at
+    *
+    * http://www.apache.org/licenses/LICENSE-2.0
+    *
+    * Unless required by applicable law or agreed to in writing, software
+    * distributed under the License is distributed on an "AS IS" BASIS,
+    * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    * See the License for the specific language governing permissions and
+    * limitations under the License.
+    *-->
+
+
+<resources>
+    <string name="app_name" translatable="false">Minh Long Translator</string>
+
+    <string name="mic">mic</string>
+    <string name="btHeadset">bt-headset</string>
+    <string name="exit">exit</string>
+    <string name="retry">thử lại</string>
+    <string name="continue_without_tts">tiếp tục</string>
+    <string name="delete">xoá</string>
+    <string name="no_devices">Không có thiết bị</string>
+    <string name="available">có sẵn</string>
+    <string name="not_available">Không có sẵn</string>
+    <string name="loading">đang tải…</string>
+    <string name="forward">tiếp tục</string>
+    <string name="no_graph_data">Không có dữ liệu</string>
+    <string name="conversation">Trò chuyện</string>
+    <string name="connection">Kết nối </string>
+    <string name="translate">Dịch</string>
+    <string name="fix">sửa</string>
+
+    <string name="notification_channel_name">sử dụng trong nền</string>
+
+    <string name="age_check_box">Tôi đảm bảo trên 14 tuổi</string>
+    <string name="privacy_check_box">Tôi đã đọc các điều khoản<a href="https://github.com/queenieeq/MLTranslator/blob/v2.00/privacy/Privacy_Policy_en.md"> </a></string>
+
+    <string name="toast_working_background">Minh Long Translator vẫn chạy trong nền</string>
+    <string name="toast_download_completed">Đã tải xong</string>
+    <string name="toast_download_error">Có lỗi xảy ra, hãy đóng ứng dụng và thử lại</string>
+    <string name="toast_missing_notification_permission">Để đảm bảo hoạt động trong nền hãy mở thông báo</string>
+
+    <string name="dialog_confirm_delete">xác nhận huỷ</string>
+    <string name="dialog_confirm_exit">Xác nhận thoát</string>
+    <string name="dialog_confirm_disconnection">Bạn của chắc chắn muốn ngắt kết nối&#160;</string>
+    <string name="dialog_confirm_connection">Bạn có chắc chắn kết nối với&#160;</string>
+    <string name="dialog_confirm_connection_request">Accept connection request from&#160;</string>
+    <string name="dialog_select_file">Chọn file</string>
+    <string name="dialog_select_personal_language">Chọn ngôn ngữ</string>
+    <string name="dialog_select_first_language">Chọn ngôn ngữ chính </string>
+    <string name="dialog_select_second_language">Chọn ngôn ngữ phụ</string>
+    <string name="dialog_insert_name">Nhập tên</string>
+
+    <string name="menu_image_select_from_gallery">Chọn từ thư viện</string>
+    <string name="menu_image_remove">Remove</string>
+
+    <string name="hint_edit_text_message">Write a message</string>
+    <string name="hint_user_name">Name</string>
+
+    <string name="error_missing_location_permissions">Hãy cấp quyền sử dụng bluetooth để sử dụng chế độ trò chuyện</string>
+    <string name="error_missing_mic_permissions">Without the microphone permission the voice recognition does not work, go to the settings to grant the permission or reinstall the app</string>
+    <string name="error_tts_toast">Missing tts</string>
+    <string name="error_tts">There was an error with the tts initialization, do you want to continue without tts?</string>
+    <string name="error_missing_tts">In this device there is no google tts engine, download it to be able to use the tts</string>
+    <string name="error_wrong_api_key_file">The key file to use the API does not work, insert a working key file</string>
+    <string name="error_missing_api_key_file">Enter the key file to use the API</string>
+    <string name="error_missing_bluetooth_le">It is not possible to use the Conversation mode because this device does not have Bluetooth Low Energy</string>
+    <string name="error_internet_lack_loading">To start MLTranslator an internet connection is required, check your connection</string>
+    <string name="error_internet_lack_accessing">To perform the operation an internet connection is required, check your connection</string>
+    <string name="error_internet_lack_services">Unable to translate message, check internet connection</string>
+    <string name="error_internet_lack_loading_languages">To view the languages you need an internet connection, check your connection and try again</string>
+    <string name="error_connection_rejected"> refused the connection request</string>
+    <string name="error_connection">Connection error</string>
+    <string name="error_starting_search">Error starting search</string>
+    <string name="error_cannot_interact_connection">cannot interact with devices during connection</string>
+    <string name="error_cannot_interact_disconnection">cannot interact with devices during disconnection</string>
+    <string name="error_wait_initialization">Wait for initialization</string>
+    <string name="error_invalid_key">Enter a valid key file</string>
+    <string name="error_picking_file">Error while taking the file, try again</string>
+    <string name="error_selecting_image">Error during image selection, use another gallery to select it</string>
+    <string name="error_wait_download_end">Wait download finishes</string>
+    <string name="error_age_unchecked">You must be at least 14 years old to use the app</string>
+    <string name="error_privacy_unchecked">You must have read the privacy policy to use the app</string>
+    <string name="error_missing_username">Insert a name</string>
+    <string name="error_wrong_username">The text contains illegal characters, only the following characters are allowed: </string>
+    <string name="error_models_loading">There was an error loading the files of the models for translation and speech recognition, probably some files are corrupted, try restarting the app, if the problem persists then press the fix button and only the corrupted files will be re-downloaded.</string>
+    <string name="error_download">Lỗi trong quá trình download, vui lòng kiểm tra kết nối và thử lại</string>
+    <string name="error_transfer">Lỗi xảy ra trong quá trình chuyển file từ bộ nhớ ngoài sang bộ nhớ trong, vui lòng kiểm tra kết nối và thử lại</string>
+    <string name="error_ram">Thiết bị của bạn ít hơn 6gb RAM, ứng dụng cần ít nhất 6GB Ram để hoạt động ổn định</string>
+    <string name="error_storage">Bộ nhớ thấp, quá trình download có thể lỗi</string>
+
+    <string name="title_graph">DOLLARS (USD) SPENT EVERY HOUR</string>
+
+    <string name="home_walkietalkie_mode">WalkieTalkie Mode</string>
+    <string name="home_conversation_mode">Conversation Mode</string>
+    <string name="title_fragment_conversation">Conversation</string>
+    <string name="title_fragment_walkie_talkie">WalkieTalkie</string>
+    <string name="title_fragment_notice">Notice</string>
+    <string name="title_fragment_user_data">Insert your data</string>
+    <string name="title_fragment_download">Tải về models</string>
+
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_credit">APIs management</string>
+
+    <string name="header_recents_peers">recents</string>
+    <string name="header_found_peers">found</string>
+    <string name="header_connected_peers">connected</string>
+    <string name="header_key">APIs key</string>
+
+    <string name="description_cost">The voice recognition rounds the cost of each request to the nearest multiple of 15 seconds, the average total cost (both translator and voice recognition), without taking into account the rounding, is 2.5 dollars per hour, also for WalkieTalkie must add the language detection costs to the translation, to learn more read the <a href="https://github.com/queenieeq/MLTranslator">tutorial</a></string>
+    <string name="description_discovery">Màn hình này sẽ tìm kiếm và hiển thị chúng ta cho các thiết bị khác sử dụng Minh Long Translator để có thể thiết lập kết nối với chúng và bắt đầu cuộc trò chuyện.</string>
+    <string name="description_key">To find out how to get the key file read the <a href="https://github.com/queenieeq/MLTranslator">tutorial</a></string>
+    <string name="description_fragment_user_data">Tên của bạn sẽ được hiển thị bởi tất cả các thiết bị lân cận, trong khi ảnh đại diện của bạn sẽ chỉ được hiển thị trên các thiết bị mà bạn đã trò chuyện.</string>
+    <string name="description_fragment_download">Bây giờ Minh Long Translator sẽ tải xuống các mô hình mạng thần kinh cần thiết cho việc dịch và nhận dạng giọng nói, sau khi hoàn tất, bạn có thể bắt đầu sử dụng ứng dụng (ngay cả khi ngoại tuyến)</string>
+    <string name="description_conversation">Chế độ hội thoại là tính năng chính của Minh Long Translator, nó cho phép bạn dịch một cuộc trò chuyện giữa nhiều người trong thời gian thực, để có trải nghiệm tốt hơn, bạn nên kết nối tai nghe bluetooth với điện thoại,
+        hơn nữa ứng dụng sẽ tiếp tục hoạt động ngay cả trong nền và khi điện thoại ở chế độ chờ (tuy nhiên, một số điện thoại có thể gặp sự cố về hiệu suất khi ứng dụng chạy trong nền)</string>
+    <string name="description_walkie_talkie">Chế độ bộ đàm là chức năng phụ của Minh Long Translator, nó không cho phép dịch thời gian thực nhưng được thiết kế để hoạt động chỉ với một điện thoại, nó tự động phát hiện và dịch một bài phát biểu bằng một ngôn ngữ sang một ngôn ngữ khác, và ứng dụng sẽ tiếp tục hoạt động trong nền và khi điện thoại ở chế độ chờ.</string>
+    <string name="description_notice"> Minh Long Translator sử dụng <a href="https://openai.com/index/whisper/">OpenAi\'s Whisper</a> để nhận dạng giọng nói và <a href="https://ai.meta.com/research/no-language-left-behind/">Meta\'s NLLB</a> để dịch, các mô hình này yêu cầu hiệu năng và ít nhất 6GB RAM để chạy, vì vậy hãy đảm bảo bạn đang sử dụng smartphone tốt để tránh bị chậm hoặc treo</string>
+    <string name="description_download">Downloading %1$s</string>
+    <string name="description_transfer">Transferring %1$s in internal memory</string>
+    <string name="description_integrity_check">Checking integrity of %1$s</string>
+
+    <string name="preference_header_language">Ngôn ngữ</string>
+    <string name="preference_header_output">Output</string>
+    <string name="preference_header_input">Input</string>
+    <string name="preference_header_advanced">Nâng cao</string>
+
+    <string name="preference_title_mic_sensitivity">Độ nhạy microphone</string>
+    <string name="preference_title_support_tts_quality">Hỗ trợ các ngôn ngữ với tts chất lượng thấp</string>
+    <string name="preference_title_language">Ngôn ngữ </string>
+    <string name="preference_title_tts">Text to speech</string>
+    <string name="preference_title_speech_timeout">Thời gian chờ trước khi dừng nói</string>
+    <string name="preference_title_prev_voice_duration">Thời lượng dự đoán giọng nói</string>
+
+    <string name="preference_description_mic_sensitivity">Chọn mức âm lượng bạn cần để bắt đầu và duy trì nhận dạng giọng nói.</string>
+    <string name="preference_description_support_tts_quality">Hỗ trợ ngôn ngữ có chất lượng tổng hợp giọng nói thấp</string>
+    <string name="preference_description_tts">Cài đặt hệ thống của tts, việc thay đổi công cụ ưa thích cuối cùng sẽ chỉ được áp dụng sau khi khởi động lại ứng dụng.</string>
+    <string name="preference_description_speech_timeout">Chọn thời gian sau khi bạn ngừng nói để gửi văn bản đã được chuyển đổi.</string>
+    <string name="preference_description_prev_voice_duration">Chọn độ dài của bản ghi trước khi bạn bắt đầu nói sẽ được bao gồm trong nhận dạng giọng nói.</string>
+    <string name="conversation_mode" >Trò chuyện</string>
+    <string name="conversation_mode_running" >Chế độ trò chuyện đang chạy...</string>
+    <string name="walkietalkie_mode" >Bộ đàm</string>
+    <string name="walkietalkie_mode_running" >Chế độ bộ đàm đang chạy...</string>
+
+</resources>

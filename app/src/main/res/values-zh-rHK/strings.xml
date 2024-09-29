@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mic">麥克風</string>
+    <string name="btHeadset">藍牙耳機</string>
+    <string name="exit">退出</string>
+    <string name="retry">重試</string>
+    <string name="continue_without_tts">繼續</string>
+    <string name="delete">刪除</string>
+    <string name="no_devices">無設備</string>
+    <string name="available">可用</string>
+    <string name="not_available">不可用</string>
+    <string name="loading">載入中…</string>
+    <string name="forward">轉送</string>
+    <string name="no_graph_data">無使用資料</string>
+    <string name="conversation">對話</string>
+    <string name="connection">連接</string>
+    <string name="translate">翻譯</string>
+    <string name="fix">修復</string>
+
+    <string name="notification_channel_name">背景通知</string>
+
+    <string name="age_check_box">我聲明我已滿 14 歲</string>
+    <string name="privacy_check_box">我聲明我已閱讀        <a href="https://github.com/queenieeq/MLTranslator/blob/v2.00/privacy/Privacy_Policy_en.md">隱私政策</a>
+    </string>
+
+    <string name="toast_working_background">MLTranslator 將在背景中運行</string>
+    <string name="toast_download_completed">下載完成</string>
+    <string name="toast_download_error">下載時出現錯誤，請打開 MLTranslator 重試</string>
+    <string name="toast_missing_notification_permission">為確保此模式在背景中正常運行，請啟用通知</string>
+
+
+    <string name="dialog_confirm_delete">確認取消</string>
+    <string name="dialog_confirm_exit">確認退出</string>
+    <string name="dialog_confirm_disconnection">確定要斷開連接嗎&#160;</string>
+    <string name="dialog_confirm_connection">確定要連接嗎&#160;</string>
+    <string name="dialog_confirm_connection_request">接受來自&#160;的連接請求</string>
+    <string name="dialog_select_file">選擇檔案</string>
+    <string name="dialog_select_personal_language">選擇個人語言</string>
+    <string name="dialog_select_first_language">選擇主要語言</string>
+    <string name="dialog_select_second_language">選擇次要語言</string>
+    <string name="dialog_insert_name">輸入您的名字</string>
+
+    <string name="menu_image_select_from_gallery">從相簿選擇</string>
+    <string name="menu_image_remove">刪除</string>
+
+    <string name="hint_edit_text_message">撰寫訊息</string>
+    <string name="hint_user_name">姓名</string>
+
+    <string name="error_missing_location_permissions">無法在沒有位置和藍牙權限的情況下使用對話模式，請前往設定授予權限，或重新安裝應用程式</string>
+    <string name="error_missing_mic_permissions">沒有麥克風權限，語音辨識無法運作，請前往設定授予權限或重新安裝應用程式</string>
+    <string name="error_tts_toast">缺少 TTS</string>
+    <string name="error_tts">TTS 初始化時出現錯誤，是否要在沒有 TTS 的情況下繼續？</string>
+    <string name="error_missing_tts">此裝置上沒有 Google TTS 引擎，請下載以使用 TTS</string>
+    <string name="error_wrong_api_key_file">用於 API 的金鑰檔案無效，請插入有效的金鑰檔案</string>
+    <string name="error_missing_api_key_file">請輸入金鑰檔案以使用 API</string>
+    <string name="error_missing_bluetooth_le">此裝置不支援低功耗藍牙，無法使用對話模式</string>
+    <string name="error_internet_lack_loading">啟動 MLTranslator 需要網際網路連線，請檢查您的連線</string>
+    <string name="error_internet_lack_accessing">執行此操作需要網際網路連線，請檢查您的連線</string>
+    <string name="error_internet_lack_services">無法翻譯訊息，請檢查網際網路連線</string>
+    <string name="error_internet_lack_loading_languages">查看語言需要網際網路連線，請檢查您的連線並重試</string>
+    <string name="error_connection_rejected">拒絕了連接請求</string>
+    <string name="error_connection">連接錯誤</string>
+    <string name="error_starting_search">啟動搜尋錯誤</string>
+    <string name="error_cannot_interact_connection">連接期間無法與設備互動</string>
+    <string name="error_cannot_interact_disconnection">斷開連接期間無法與設備互動</string>
+    <string name="error_wait_initialization">請等待初始化</string>
+    <string name="error_invalid_key">請輸入有效的金鑰檔案</string>
+    <string name="error_picking_file">選取檔案時出錯，請重試</string>
+    <string name="error_selecting_image">選擇圖片時出錯，請使用另一個相簿選擇</string>
+    <string name="error_wait_download_end">請等待下載完成</string>
+    <string name="error_age_unchecked">您必須年滿 14 歲才能使用此應用程式</string>
+    <string name="error_privacy_unchecked">您必須閱讀隱私政策才能使用此應用程式</string>
+    <string name="error_missing_username">請輸入名字</string>
+    <string name="error_wrong_username">文字包含非法字符，僅允許以下字符：</string>
+    <string name="error_models_loading">載入翻譯和語音辨識模型檔案時出錯，可能有些檔案損壞，請嘗試重新啟動應用程式，如果問題仍然存在，請按下修復按鈕，僅重新下載損壞的檔案。</string>
+    <string name="error_download">下載時出錯，請確保您有網際網路連線並重試：</string>
+    <string name="error_transfer">從外部記憶體到內部記憶體傳輸下載檔案時出錯，請確保您沒有取出 SD 卡或其他外部存儲設備，並保持應用程式開啟重新嘗試：</string>
+    <string name="error_ram">您的裝置記憶體小於 6GB，應用程式至少需要 6GB 記憶體才能運行，您仍然可以嘗試使用，但可能會崩潰。</string>
+    <string name="error_storage">存儲空間不足，下載可能失敗</string>
+
+    <string name="title_graph">每小時花費的美元 (USD)</string>
+
+    <string name="home_walkietalkie_mode">對講機模式</string>
+    <string name="home_conversation_mode">對話模式</string>
+    <string name="title_fragment_conversation">對話</string>
+    <string name="title_fragment_walkie_talkie">對講機</string>
+    <string name="title_fragment_notice">通知</string>
+    <string name="title_fragment_user_data">輸入您的資料</string>
+    <string name="title_fragment_download">模型下載</string>
+
+    <string name="title_activity_settings">設定</string>
+    <string name="title_activity_credit">API 管理</string>
+
+    <string name="header_recents_peers">最近</string>
+    <string name="header_found_peers">找到的</string>
+    <string name="header_connected_peers">已連接</string>
+    <string name="header_key">API 金鑰</string>
+
+    <string name="description_cost">語音辨識將每次請求的成本四捨五入到最接近的 15 秒的倍數，平均總成本（包括翻譯和語音辨識），不考慮四捨五入，是每小時 2.5 美元，對於對講機還必須將語言識別成本加到翻譯中，了解更多請閱讀<a href="https://github.com/queenieeq/MLTranslator">教學</a>
+    </string>
+    <string name="description_discovery">此畫面將搜尋並使我們對其他使用 MLTranslator 的設備可見，以便能夠與它們建立連接並開始對話</string>
+    <string name="description_key">要了解如何獲取金鑰檔案，請閱讀        <a href="https://github.com/queenieeq/MLTranslator">教學</a>
+    </string>
+    <string name="description_fragment_user_data">您的名字將顯示給所有附近的設備，而您的個人資料照片僅顯示在您已經進行過對話的設備上</string>
+    <string name="description_fragment_download">現在 MLTranslator 將下載翻譯和語音辨識所需的神經網路模型，完成後您可以開始使用應用程式（即使是離線狀態下）。</string>
+    <string name="description_conversation">對話模式是 MLTranslator 的主要功能，它允許您實時翻譯多個人之間的對話，為了更好的體驗，建議將藍牙耳機連接到手機，此外應用程式在背景運行和手機待機時也會繼續工作（然而，一些手機在應用程式背景運行時可能會有性能問題）</string>
+    <string name="description_walkie_talkie">對講機模式是 MLTranslator 的次要功能，它不支持實時翻譯，但設計成只需使用一部手機，它會自動檢測並將語音從一種語言翻譯成另一種語言，應用程式在背景運行和手機待機時也會繼續工作</string>
+    <string name="description_notice">MLTranslator 使用 <a href="https://openai.com/index/whisper/">OpenAi 的 Whisper</a> 進行語音辨識，使用        <a href="https://ai.meta.com/research/no-language-left-behind/">Meta 的 NLLB</a> 進行翻譯，這些模型需要相當多的計算能力和至少 6GB 的記憶體來執行，所以請確保您使用的是現代智慧手機，以避免速度變慢或崩潰。更多有關 MLTranslator 的資訊，請訪問應用程式的 GitHub 項目<a href="https://github.com/queenieeq/MLTranslator">這裡</a>
+    </string>
+
+    <string name="description_download">正在下載 %1$s</string>
+    <string name="description_transfer">正在將 %1$s 傳輸到內部記憶體</string>
+    <string name="description_integrity_check">正在檢查 %1$s 的完整性</string>
+
+    <string name="preference_header_language">語言</string>
+    <string name="preference_header_output">輸出</string>
+    <string name="preference_header_input">輸入</string>
+    <string name="preference_header_advanced">進階</string>
+
+    <string name="preference_title_mic_sensitivity">麥克風靈敏度</string>
+    <string name="preference_title_support_tts_quality">支援低品質 TTS 語言</string>
+    <string name="preference_title_language">個人語言</string>
+    <string name="preference_title_tts">文字轉語音</string>
+    <string name="preference_title_speech_timeout">語音超時結束</string>
+    <string name="preference_title_prev_voice_duration">語音預期持續時間</string>
+
+    <string name="preference_description_mic_sensitivity">選擇您需要的音量級別以啟動和維持語音辨識</string>
+    <string name="preference_description_support_tts_quality">此選項允許支持語音合成器品質較低的語言</string>
+    <string name="preference_description_tts">TTS 的系統設定，優先引擎的變更將僅在重新啟動應用程式後生效</string>
+    <string name="preference_description_speech_timeout">選擇您停止說話後發送轉錄文字的時間</string>
+    <string name="preference_description_prev_voice_duration">選擇開始說話前的錄音長度，將包括在語音辨識中</string>
+    <string name="conversation_mode" >對話模式</string>
+    <string name="conversation_mode_running" >對話模式正在運行...</string>
+    <string name="walkietalkie_mode" >對講機模式</string>
+    <string name="walkietalkie_mode_running" >對講機模式正在運行...</string>
+
+</resources>

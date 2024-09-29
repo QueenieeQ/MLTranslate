@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    * Copyright 2016 Luca Martino.
+    *
+    * Licensed under the Apache License, Version 2.0 (the "License");
+    * you may not use this file except in compliance with the License.
+    * You may obtain a copyFile of the License at
+    *
+    * http://www.apache.org/licenses/LICENSE-2.0
+    *
+    * Unless required by applicable law or agreed to in writing, software
+    * distributed under the License is distributed on an "AS IS" BASIS,
+    * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    * See the License for the specific language governing permissions and
+    * limitations under the License.
+    *-->
+
+<resources>
+    <string name="mic">mic</string>
+    <string name="btHeadset">bt-headset</string>
+    <string name="exit">esci</string>
+    <string name="retry">riprova</string>
+    <string name="continue_without_tts">continua</string>
+    <string name="delete">elimina</string>
+    <string name="no_devices">no devices</string>
+    <string name="available">disponibile</string>
+    <string name="not_available">non disponibile</string>
+    <string name="loading">caricamento…</string>
+    <string name="forward">avanti</string>
+    <string name="no_graph_data">Nessun dato sull\' utilizzo presente</string>
+    <string name="conversation">conversazione</string>
+    <string name="connection">connessione</string>
+    <string name="translate">Traduci</string>
+    <string name="fix">correggi</string>
+
+    <string name="notification_channel_name">notifica uso in background</string>
+
+    <string name="age_check_box">Dichiaro di avere almeno 14 anni</string>
+    <string name="privacy_check_box">Dichiaro di aver letto la <a href="https://github.com/queenieeq/MLTranslator/blob/v2.00/privacy/Privacy_Policy_it.md">privacy policy</a></string>
+
+    <string name="toast_working_background">MLTranslator funzionerà in background</string>
+    <string name="toast_download_completed">Download completato</string>
+    <string name="toast_download_error">C\'è stato un errore col download, apri MLTranslator per riprovare</string>
+    <string name="toast_missing_notification_permission">Per far funzionare bene in background questa modalità, attivare le notifiche</string>
+
+    <string name="dialog_confirm_delete">Conferma cancellazione</string>
+    <string name="dialog_confirm_exit">Conferma uscita</string>
+    <string name="dialog_confirm_disconnection">Sei sicuro di volerti disconnettere da&#160;</string>
+    <string name="dialog_confirm_connection">Sei sicuro di volerti connettere con&#160;</string>
+    <string name="dialog_confirm_connection_request">Accetti la richiesta di connessione da&#160;</string>
+    <string name="dialog_select_file">Seleziona il file</string>
+    <string name="dialog_select_personal_language">Seleziona la lingua personale</string>
+    <string name="dialog_select_first_language">Seleziona la lingua primaria</string>
+    <string name="dialog_select_second_language">Seleziona la lingua secondaria</string>
+    <string name="dialog_insert_name">Inserisci il tuo nome</string>
+
+    <string name="menu_image_select_from_gallery">Seleziona dalla galleria</string>
+    <string name="menu_image_remove">Rimuovi</string>
+
+    <string name="hint_edit_text_message">Scrivi un messaggio</string>
+    <string name="hint_user_name">Nome utente</string>
+
+    <string name="error_missing_location_permissions">Non é possibile eseguire la modalità Conversazione senza il permesso per la posizione e del bluetooth, andare nelle impostazioni per concederli, oppure reinstallare l\' app</string>
+    <string name="error_missing_mic_permissions">Senza il permesso per il microfono il riconoscimento vocale non funziona, andare nelle impostazioni per concedere il permesso oppure reinstalla l\' app</string>
+    <string name="error_tts_toast">TTS mancante</string>
+    <string name="error_tts">C\'è stato un errore con l\'inizializzazione del tts, vuoi continuare senza tts?</string>
+    <string name="error_missing_tts">In questo device non è presente il motore di sintesi vocale di google, scaricalo per poter usare il tts</string>
+    <string name="error_wrong_api_key_file">Il file chiave per usare l\'API non funziona, inserire un file chiave funzionante</string>
+    <string name="error_missing_api_key_file">Inserire il file chiave per usare l\'API</string>
+    <string name="error_missing_bluetooth_le">Non é possibile eseguire la modalità Conversazione perché questo dispositivo non ha il Bluetooth Low Energy</string>
+    <string name="error_internet_lack_loading">Per avviare MLTranslator è necessaria una connessione a internet, controllare la propria connessione</string>
+    <string name="error_internet_lack_accessing">Per eseguire l\'operazione è necessaria una connessione a internet, controllare la propria connessione</string>
+    <string name="error_internet_lack_services">Impossibile tradurre il messaggio, controllare la connessione a internet</string>
+    <string name="error_internet_lack_loading_languages">Per visualizzare le lingue è necessaria una connessione a internet, controllare la propria connessione e riprovare</string>
+    <string name="error_connection_rejected"> ha rifiutato la richiesta di connessione</string>
+    <string name="error_connection">Errore di connessione</string>
+    <string name="error_starting_search">Errore durante l\' avvio della ricerca</string>
+    <string name="error_cannot_interact_connection">Non si può interagire con i dispositivi durante la connessione</string>
+    <string name="error_cannot_interact_disconnection">Non si può interagire con i dispositivi durante la disconnessione</string>
+    <string name="error_wait_initialization">Attendere inizializzazione</string>
+    <string name="error_invalid_key">Inserire un file chiave valido</string>
+    <string name="error_picking_file">Errore durante il prelevamento del file, riprovare</string>
+    <string name="error_selecting_image">Errore durante la selezione dell\' immagine, usa un\' altra galleria per selezionarla</string>
+    <string name="error_wait_download_end">Aspetta che il download finisca</string>
+    <string name="error_age_unchecked">Devi avere almeno 14 anni per usare l\'app</string>
+    <string name="error_privacy_unchecked">Devi aver letto la privacy policy per usare l\'app</string>
+    <string name="error_missing_username">Inserire un nome</string>
+    <string name="error_wrong_username">Il testo contiene caratteri non ammessi, sono ammessi solo i seguenti caratteri: </string>
+    <string name="error_models_loading">C\'è stato un errore nel caricamento dei file dei modelli di rete neurale per la traduzione e il riconoscimento vocale, probabilmente qualche file è danneggiato, provare a riavviare l\'app, se il problema persiste allora premere il pulsante "correggi" e solo i file danneggiati verranno riscaricati.</string>
+    <string name="error_download">Errore nel download, assicurati di avere una connessione a internet e riprova:</string>
+    <string name="error_transfer">Errore nel trasferimento del file scaricato dalla memoria esterna a quella interna, assicurati di non aver rimosso una scheda SD o altri dispositivi di archiviazione esterni e riprova tenendo aperta l\'app:</string>
+    <string name="error_ram">Il tuo dispositivo ha meno di 6GB di RAM, per funzionare l\'app ha bisogno di almeno 6GB di RAM, puoi provare lo stesso a usarla, ma molto probabilmente crasherà.</string>
+    <string name="error_storage">Spazio di archiviazione basso, il download potrebbe fallire</string>
+
+    <string name="title_graph">DOLLARI (USD) SPESI OGNI ORA</string>
+
+    <string name="home_walkietalkie_mode">Modalità WalkieTalkie</string>
+    <string name="home_conversation_mode">Modalità Conversazione</string>
+    <string name="title_fragment_conversation">Conversazione</string>
+    <string name="title_fragment_walkie_talkie">WalkieTalkie</string>
+    <string name="title_fragment_notice">Avviso</string>
+    <string name="title_fragment_user_data">Inserisci i tuoi dati</string>
+    <string name="title_fragment_download">Download dei modelli</string>
+
+    <string name="title_activity_settings">Impostazioni</string>
+    <string name="title_activity_credit">Gestione APIs</string>
+
+    <string name="header_recents_peers">recenti</string>
+    <string name="header_found_peers">trovati</string>
+    <string name="header_connected_peers">connessi</string>
+    <string name="header_key">Chiave APIs</string>
+
+    <string name="description_cost">Il riconoscimento vocale arrotonda il costo di ogni richiesta al più vicino multiplo di 15 secondi, il costo medio totale (sia traduttore che riconoscimento vocale), senza tenere conto dell\' arrotondamento, è di 2,5 dollari l\' ora, inoltre per WalkieTalkie bisogna aggiungere ai costi di traduzione anche quelli del rilevamento della lingua, per approfondire leggere il <a href="https://github.com/queenieeq/MLTranslator">tutorial</a></string>
+    <string name="description_discovery">In questa schermata si cercano e ci rendiamo visibili ad altri dispositivi che usano MLTranslator
+        per poter stabilire una connessione con loro e iniziare la conversazione</string>
+    <string name="description_key">Per sapere come procurarsi il file chiave leggere il <a href="https://github.com/queenieeq/MLTranslator">tutorial</a></string>
+    <string name="description_fragment_user_data">Il tuo nome verrà visualizzato da tutti i dispositivi nelle vicinanze, mentre la tua immagine del profilo solo dai dispositivi con cui hai già avuto conversazioni</string>
+    <string name="description_fragment_download">Adesso MLTranslator scaricherà i modelli di reti neurali necessari per la traduzione e il riconoscimento vocale, una volta finito potrai iniziare a usare l\'app (anche offline).</string>
+    <string name="description_conversation">La modalità Conversazione è la funzionalità principale di MLTranslator, permette di tradurre una conversazione tra più persone in tempo reale, per un\' esperienza migliore si consiglia di collegare delle cuffie bluetooth al telefono, inoltre l\' applicazione continuerà a funzionare anche in background e con il telefono in standby (alcuni telefoni però potrebbero avere problemi di prestazioni quando l\'app gira in background)</string>
+    <string name="description_walkie_talkie">La modalità WalkieTalkie è la funzionalità secondaria di MLTranslator, non permette una traduzione in tempo reale ma è pensata per funzionare con un solo telefono,
+        rileva e traduce automaticamente un discorso in una lingua nell\' altra, inoltre l\' applicazione continuerà a funzionare anche in background e con il telefono in standby</string>
+    <string name="description_notice">MLTranslator usa <a href="https://openai.com/index/whisper/">OpenAi Whisper</a> per il riconoscimento vocale e <a href="https://ai.meta.com/research/no-language-left-behind/">Meta NLLB</a> per la traduzione, questi modelli richiedono abbastanza potenza e almeno 6GB di RAM per essere eseguiti, quindi assicurati di usare uno smartphone moderno per evitare rallentamenti o crash. Per più info su MLTranslator visita il progetto GitHub dell\'app <a href="https://github.com/queenieeq/MLTranslator">qui</a></string>
+    <string name="description_download">Download di %1$s in corso</string>
+    <string name="description_transfer">Trasferimento di %1$s nella memoria interna</string>
+    <string name="description_integrity_check">Verifica dell\'integrità di %1$s</string>
+
+    <string name="preference_header_language">Lingua</string>
+    <string name="preference_header_output">Output</string>
+    <string name="preference_header_input">Input</string>
+    <string name="preference_header_advanced">Avanzate</string>
+
+    <string name="preference_title_mic_sensitivity">Sensibilità microfono</string>
+    <string name="preference_title_support_tts_quality">Supporto lingue con tts a bassa qualità</string>
+    <string name="preference_title_language">Lingua personale</string>
+    <string name="preference_title_tts">Sintetizzatore vocale</string>
+    <string name="preference_title_speech_timeout">Timeout fine voce</string>
+    <string name="preference_title_prev_voice_duration">Durata anticipo voce</string>
+
+    <string name="preference_description_mic_sensitivity">Seleziona il livello di volume che serve per avviare e mantenere il riconoscimento vocale</string>
+    <string name="preference_description_support_tts_quality">Permette di supportare anche le lingue che hanno una bassa qualità del sintetizzatore vocale</string>
+    <string name="preference_description_tts">Impostazioni di sistema del tts, un eventuale cambio del motore predefinito sarà applicato solo dopo il riavvio dell\'app</string>
+    <string name="preference_description_speech_timeout">Seleziona il tempo che deve trascorrere dopo aver smesso di parlare per inviare il testo trascritto</string>
+    <string name="preference_description_prev_voice_duration">Seleziona la durata della registrazione precedente a quando si inizia a parlare che verrà inclusa nel riconoscimento vocale</string>
+    <string name="conversation_mode" >Modalità Conversazione</string>
+    <string name="conversation_mode_running" >La modalità conversazione è in esecuzione...</string>
+    <string name="walkietalkie_mode" >Modalità WalkieTalkie</string>
+    <string name="walkietalkie_mode_running" >La modalità WalkieTalkie è in esecuzione...</string>
+</resources>

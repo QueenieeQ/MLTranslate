@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Speech" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="color">#2196F3</item>
+        <item name="colorPrimaryDark">#2196F3</item>
+        <item name="colorAccent">#2196F3</item>
+        <item name="colorPrimary">#2196F3</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <!--<item name="android:navigationBarColor">@color/very_light_gray</item>-->
+        <!--<item name="android:navigationBarColor">@android:color/white</item>-->
+        <item name="cardViewStyle">@style/CardView</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Material</item>
+    </style>
+</resources>
